@@ -1,0 +1,17 @@
+@use "../helpers/variables/borders" as *;
+
+.pagination {
+
+    li {
+
+        width: 40px;
+
+        height: 40px;
+
+        border: $main-border;
+
+        cursor: pointer;
+
+    }
+
+}

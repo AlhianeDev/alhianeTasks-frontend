@@ -1,0 +1,35 @@
+@mixin centering_with_position_by_with_and_height($width, $height) {
+
+    position: absolute;
+
+    top: calc(50% - ($height / 2));
+
+    left: calc(50% - ($width / 2));
+
+}
+
+@mixin centering_with_position_by_transform {
+
+    position: absolute;
+
+    top: 50%;
+
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+}
+
+@mixin target_position($top: 0, $right: 0, $bottom: 0, $left: 0) {
+
+    position: absolute;
+
+    top: $top;
+
+    right: $right;
+
+    bottom: $bottom;
+
+    left: $left;
+
+}

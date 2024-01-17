@@ -1,0 +1,47 @@
+@use "../helpers/variables/colors" as *;
+
+.home {
+
+    position: relative;
+
+    .actions {
+
+        button {
+
+            padding: 0.340rem 0.50rem;
+
+        }
+
+    }
+
+    .date {
+
+        display: block;
+
+        padding: 5px 10px;
+
+        border-radius: 34px;
+
+        font-size: 14px;
+
+        letter-spacing: 1px;
+
+        &:first-child {
+
+            background-color: rgba(220, 53, 69, .1);
+
+            color: rgb(220, 53, 69);
+
+        }
+
+        &:last-child {
+
+            background-color: rgba(25, 135, 84, .1);
+
+            color: rgb(25, 135, 84);
+
+        }
+
+    }
+
+}

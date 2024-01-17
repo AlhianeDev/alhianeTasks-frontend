@@ -1,0 +1,7 @@
+@use "../helpers/mixins/centering" as *;
+
+.spinner {
+
+    @include target_position($top: 100px, $left: calc(50% - 16px));
+
+}

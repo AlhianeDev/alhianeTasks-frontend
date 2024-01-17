@@ -1,0 +1,29 @@
+@use "../helpers/mixins/centering" as *;
+
+@use "../helpers/variables/colors" as *;
+
+.msg {
+
+    width: fit-content !important;
+
+    @include centering_with_position_by_transform;
+
+    letter-spacing: 1px;
+
+    font-size: 24px;
+
+    text-align: center;
+
+    &.info {
+
+        color: $success-color;
+
+    }
+
+    &.error {
+
+        color: $danger-color;
+
+    }
+
+}

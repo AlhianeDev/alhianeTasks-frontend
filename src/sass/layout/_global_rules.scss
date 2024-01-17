@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+* {
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+}
+
+body {
+
+    min-height: 100vh;
+
+    display: flex;
+
+    flex-direction: column;
+
+    font-family: 'Roboto', sans-serif !important;
+
+}
+
+a {
+
+    text-decoration: none !important;
+
+}
+
+ul {
+
+    list-style: none !important;
+
+}
+
+section {
+
+    // min-height: calc(fullPage height - ((footer height + header height) + sec padding))
+
+    min-height: calc(100vh - ((160px + 56px) + 6rem));
+
+}
